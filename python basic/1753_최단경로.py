@@ -1,3 +1,4 @@
+# dijkstra 문제풀이 heap 사용해보기
 V, E = map(int, input().split())
 K = int(input())
 G = [[] for _ in range(V + 1)]
