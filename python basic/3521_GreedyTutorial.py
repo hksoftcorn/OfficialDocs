@@ -3,7 +3,6 @@ a, b, c, d, e, N = map(int, input().split())
 def solution():
     global N
     e_cnt = N // 16
-    if e < e_cnt:
         e_cnt = e
     N -= (16 * e_cnt)
 
